@@ -1,0 +1,15 @@
+﻿<Window x:Class="ActividadesUT2_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ActividadesUT2_4"
+        mc:Ignorable="d"
+        Title="Texto con limite" Height="231.25" Width="342.708" Icon="info.ico">
+    <Grid>
+        <Label x:Name="txtLimite" Content="0/140" HorizontalAlignment="Left" Margin="262,157,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtbEscrito" AcceptsReturn="True" HorizontalAlignment="Left" Height="122" Margin="38,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="265" TextChanged="txtbEscrito_TextChanged"/>
+
+
+    </Grid>
+</Window>
